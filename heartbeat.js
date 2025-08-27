@@ -1,6 +1,6 @@
 class Heartbeat {
 
-constructor(onFlashRate, offFlashRate) { // <!-- add the flash rate parameters
+constructor(onFlashRate=1000, offFlashRate=500) { // <!-- add the flash rate parameters
     this._element = document.createElement('div');
     this._intervalId = null;
     this.onFlashRate = onFlashRate;
